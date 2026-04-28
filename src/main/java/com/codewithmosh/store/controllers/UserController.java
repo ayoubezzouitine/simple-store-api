@@ -54,20 +54,4 @@ public class UserController {
                 .body("User with id " + id + " deleted successfully");
     }
 
-        /*
-            A user can have multiple addresses
-            Create endpoints:
-            POST /users/:userId/addresses
-            GET /users/:userId/addresses
-            When fetching a user → include their addresses
-
-            Rules:
-
-            ❌ Don’t allow address creation if user doesn’t exist
-            ❌ Don’t allow orphan addresses
-         */
-
-
-
-
 }
